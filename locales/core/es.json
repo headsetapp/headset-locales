@@ -21,6 +21,7 @@
     "created": "Colección '{{name}}' Creada",
     "delete": "Esto eliminará la colección. ¿Estás seguro de que quieres hacer eso?",
     "dot": "Colecciones...",
+    "my": "Mis Colecciones",
     "no": "Sin Colecciones",
     "rename": "Cambiar el nombre de la colección",
     "sureDelete": "¿Seguro que quieres eliminar esto de tus colecciones?"
@@ -105,7 +106,6 @@
   "live": "En Vivo",
   "loadMore": "Cargar Más",
   "loading": "Cargando",
-  "loadingDotDotDot": "Cargando...",
   "logIn": "Iniciar sesión",
   "loggingOut": "Desconectando ... un momento",
   "loginContinue": "Ingresa para continuar",
@@ -114,12 +114,9 @@
   "new": "Nuevo",
   "newUser": "¿Nuevo usuario?",
   "noType": {
-    "channels": "No hay canales, todavía.",
-    "collections": "No hay colecciones, todavía.",
     "explainChannels": "Un canal en YouTube es la página de inicio de una cuenta. Puedes seguir tantas como quieras. ¡Busca la etiqueta <span class=\"channel-tag\">Canal</span> en los resultados de búsqueda!",
     "explainCollections": "Las colecciones son listas de reproducción creadas por el usuario, compuestas de canciones individuales. Crea una colección de tus favoritos, para que estén siempre cerca",
-    "explainPlaylists": "Una lista de reproducción te permite agrupar videos de una manera particular para que tus fans puedan encontrar más contenido que les interesa. ¡Busque la etiqueta <span class=\"playlist-tag\">Lista de Reproducción</span> en los resultados de búsqueda!",
-    "playlists": "No hay listas de reproducción, todavía."
+    "explainPlaylists": "Una lista de reproducción te permite agrupar videos de una manera particular para que tus fans puedan encontrar más contenido que les interesa. ¡Busque la etiqueta <span class=\"playlist-tag\">Lista de Reproducción</span> en los resultados de búsqueda!"
   },
   "notification": {
     "description": "Despliega una alerta cuando se reproduce una nueva canción",
@@ -163,7 +160,6 @@
   "signOut": "Cerrar Sesión",
   "signUp": "Regístrate",
   "signUpNow": "Regístrate Ahora",
-  "startTrial": "Comienza tu prueba de 30 días",
   "station": {
     "cannotLoad": "No se pudo cargar {{stationKey}}",
     "random": "Elige una estación aleatoria",

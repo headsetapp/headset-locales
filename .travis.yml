@@ -1,0 +1,29 @@
+language: node_js
+
+node_js: "8"
+
+git:
+  depth: 1
+
+before_install:
+- npm i -g npm@6.4.1
+
+install:
+- npm ci
+
+script:
+- npm run lint
+
+deploy:
+- provider: script
+  script: node bin/removeNotTranslated.js
+  on:
+    branch: master
+
+cache:
+  directories:
+  - "$HOME/.npm"
+
+notifications:
+  slack:
+    secure: gW5Z24CAFGHsCx7G6OexqcYsGL6vi+68X590Z4ISNpu5nM1sQVcbafcVKyswkH3cS5FQmcTlETrBk5mIekSQNKlPRi4oV8/DqXN9GUI8aoRV+sbsmH8S6B8KRT0MAzqJSGVJSpgQgbGhfba/BKx2dYz/km52+IVwB1/yPToANqeqbmwDffAsisW/I6gBh70tagRBumGCJ6tfRRUE0F6KNTxyiuB3WBvWC55mLCxz2A7ztk7/AkG3I44w909fULDfduMiW/dj/dc+sJm17SjfNyH7bjjWpUuYfsRw5xqVOBge0EIjo3E+9BGbfy43ajEdMRGwRuxfsPgxGcCR7MLFs2F98tyQs5fRXl9Un99LFLiIwMkwSwOJvhR1Oru7uRkEHKyNwPbtGk2CM1kwMkHJQr9xfgX63OuHkI5Srt2a4l6FZsG+jw9cc08c6UxAZGOayx7vu3fZjt84SqJuYrLyUtQxMVOPcoNftZlvdl06VZvk+Mdxu6Ry2bPgjI9rE94vWUZgp3NkAnkRH+upZXsQc5ixlK8DVYBBRNvvgf7gmN5N0HEoIqizGH7ISB9npomqxHrxxARBBzWwdL1ypwwAaEoaY8sxy18CyYkKh7XC9KlQBkAuiP3yzD0dLkBdWCTb1OcK7mU3WtGpCJWlM1MeO4ZoC5CbTPSPXtxm1fig2OA=

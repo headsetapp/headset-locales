@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "locales for headset core and wrapper",
   "scripts": {
-    "lint": "eslint --ext .json .",
+    "lint": "eslint --ext .js,.json .",
     "i18n-scan": "i18next-scanner '../headset-electron/windows/lib/headsetTray.js' '../headset/src/**/*.{js,jsx}'"
   },
   "devDependencies": {

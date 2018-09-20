@@ -17,6 +17,10 @@ function notTranslated(key, value) {
 
 // Rewrites JSON language files for wrapper
 wrapperFilenames.forEach((file) => {
+  // Don't change the English translation.
+  // This should be left so errors can happen on Travis and core deploy script
+  if (file === 'en.json') { return; }
+
   const filePath = path.join(wrapperPath, file);
   const json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
   fs.writeFileSync(filePath, `${JSON.stringify(json, notTranslated, 2)}\n`);
@@ -24,6 +28,10 @@ wrapperFilenames.forEach((file) => {
 
 // Rewrites JSON language files for core
 coreFilenames.forEach((file) => {
+  // Don't change the English translation.
+  // This should be left so errors can happen on Travis and core deploy script
+  if (file === 'en.json') { return; }
+
   const filePath = path.join(corePath, file);
   const json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
   fs.writeFileSync(filePath, `${JSON.stringify(json, notTranslated, 2)}\n`);

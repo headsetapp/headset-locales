@@ -7,7 +7,7 @@
     "i18n-scan": "i18next-scanner '../headset-electron/windows/lib/headsetTray.js' '../headset/src/**/*.{js,jsx}'"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "eslint": "^5.6.0",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-json": "^1.2.0",

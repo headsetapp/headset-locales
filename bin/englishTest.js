@@ -12,12 +12,21 @@ function isTranslated(value) {
   return true;
 }
 
-if (!Object.values(JSON.parse(fs.readFileSync(wrapperPath, 'utf8'))).every(isTranslated)) {
+// Retrieves the values and returns an array for testing
+function retrieveValues(nmPath) {
+  const file = fs.readFileSync(nmPath, 'utf8');
+  const json = JSON.parse(file);
+  return Object.values(json);
+}
+
+if (!retrieveValues(wrapperPath).every(isTranslated)) {
   console.error('There\'s untranslated strings on English wrapper json');
   process.exit(1);
 }
 
-if (!Object.values(JSON.parse(fs.readFileSync(corePath, 'utf8'))).every(isTranslated)) {
+if (!retrieveValues(corePath).every(isTranslated)) {
   console.error('There\'s untranslated strings on English core json');
   process.exit(1);
 }
+
+console.log('All English keys are translated');

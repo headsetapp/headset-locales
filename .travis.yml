@@ -13,13 +13,7 @@ install:
 
 script:
 - npm run lint
-- node bin/englishTest.js
-
-deploy:
-- provider: script
-  script: node bin/removeNotTranslated.js
-  on:
-    branch: master
+- node bin/testLocales.js
 
 cache:
   directories:

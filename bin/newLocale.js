@@ -5,7 +5,7 @@ const wrapperPath = path.join(__dirname, '../locales', 'wrapper');
 const corePath = path.join(__dirname, '../locales', 'core');
 
 // Get the list of locales
-let locales = [];
+let locales;
 if (process.env.LOCALE) {
   locales = process.env.LOCALE.split(' ');
 } else {

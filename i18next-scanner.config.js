@@ -1,8 +1,8 @@
 const localesNames = require('./locales-names.json');
 
-// Add new languages that are passed with the variable NEW_LANG (can be multiple separated by space)
+// Add new languages that are passed with the variable LOCALE (can be multiple separated by a space)
 let languages = [];
-if (process.env.NEW_LANG) { languages = process.env.NEW_LANG.split(' '); }
+if (process.env.LOCALE) languages = process.env.LOCALE.split(' ');
 const lngs = Object.keys(localesNames).concat(languages);
 
 module.exports = {

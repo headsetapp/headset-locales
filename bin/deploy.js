@@ -20,7 +20,7 @@ Object.keys(locales)
     const coreLocale = path.join(corePath, `${locale}.json`);
 
     // Check if any changes have happened since the last release of that locale
-    const coreChanges = execSync(`git diff ${lastCommit} HEAD --name-only ${coreLocale}`).toString('utf8');
+    const coreChanges = execSync(`git diff ${lastCommit} --name-only ${coreLocale}`).toString('utf8');
 
     // If changes, increase the version specified by RELEASE variable
     if (coreChanges !== '') locales[locale] = semver.inc(locales[locale], process.env.RELEASE);

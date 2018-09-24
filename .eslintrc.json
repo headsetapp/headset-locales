@@ -3,6 +3,11 @@
     "plugins": [
         "json"
     ],
+    "settings": {
+        "import/core-modules": [
+            "semver"
+        ]
+    },
     "rules": {
         "max-len": ["error", 120],
         "no-console": "off"

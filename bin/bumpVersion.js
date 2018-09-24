@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
@@ -25,7 +27,7 @@ Object.keys(locales)
 
     // If changes, increase the version specified by RELEASE variable
     if (coreChanges !== '') {
-      const newVersion = semver.inc(locales[locale], process.argv.RELEASE);
+      const newVersion = semver.inc(locales[locale], process.argv[2]);
       console.log(`Updating ${locale} to version ${newVersion}`);
       locales[locale] = newVersion;
     }

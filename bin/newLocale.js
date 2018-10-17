@@ -6,7 +6,7 @@ const path = require('path');
 const wrapperPath = path.join(__dirname, '../locales', 'wrapper');
 const corePath = path.join(__dirname, '../locales', 'core');
 
-// Get the list of locales
+// Get the list of locales from user
 let locales;
 if (process.env.LOCALE) {
   locales = process.env.LOCALE.split(' ');
@@ -15,7 +15,7 @@ if (process.env.LOCALE) {
   process.exit(1);
 }
 
-// Assigns the not-translated string to all values
+// Assigns the not-translated string
 function notTranslated(key, value) {
   if (typeof value === 'object') return value;
   return '__NOT_TRANSLATED__';
@@ -37,7 +37,7 @@ locales.forEach((locale) => {
   const wrapperLocalePath = path.join(wrapperPath, `${locale}.json`);
   const coreLocalePath = path.join(corePath, `${locale}.json`);
 
-  // Get JSON object
+  // Get JSON objects
   let wrapperJSON;
   let coreJSON;
   try {
@@ -45,11 +45,12 @@ locales.forEach((locale) => {
     coreJSON = JSON.parse(fs.readFileSync(coreLocalePath, 'utf8'));
   } catch (err) {
     if (err.code === 'ENOENT') {
+      // If files don't exist, create them
       fs.writeFileSync(wrapperLocalePath, `${JSON.stringify(enWrapperJSON, null, 2)}\n`);
       fs.writeFileSync(coreLocalePath, `${JSON.stringify(enCoreJSON, null, 2)}\n`);
       console.log(`New locale ${locale} was created`);
-      process.exit(0);
     }
+    // Any other error, exit
     console.error(err);
     process.exit(2);
   }

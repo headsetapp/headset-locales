@@ -30,7 +30,7 @@ if [ -n "$(git status --porcelain)" ]; then
   exit 1
 fi
 
-# Function to ask user yes/no question, with 3 tries before erroring
+# Function to ask user yes/no question, with 3 tries before exiting
 function confirm {
   local tries=1
   while [ $tries -le 3 ]; do
@@ -62,7 +62,7 @@ echo ""
 node bin/bumpVersion.js "$1"
 
 echo ""
-echo "${BOLD}Commiting changes...${RESET}"
+echo "${BOLD}Committing changes...${RESET}"
 echo ""
 git add .
 git commit -am "Update locales versions"

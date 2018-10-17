@@ -10,6 +10,8 @@ const corePath = path.join(__dirname, '../locales', 'core');
 
 let wrapperFilenames = [];
 let coreFilenames = [];
+
+// Get a list of languages to test, either pass by user or all of them
 if (process.env.LOCALE) {
   // Uses the locale array to test
   const locales = process.env.LOCALE.split(' ');
@@ -46,6 +48,7 @@ function retrieveValues(filePath) {
   return Object.values(JSON.parse(file));
 }
 
+// Test wrapper locales
 wrapperFilenames.forEach((file) => {
   if (!retrieveValues(file).every(isTranslated)) {
     console.error(`There's untranslated strings on ${file} for wrapper`);
@@ -53,6 +56,7 @@ wrapperFilenames.forEach((file) => {
   }
 });
 
+// Test core locales
 coreFilenames.forEach((file) => {
   if (!retrieveValues(file).every(isTranslated)) {
     console.error(`There's untranslated strings on ${file} for core`);
@@ -60,6 +64,7 @@ coreFilenames.forEach((file) => {
   }
 });
 
+// Throw an error for Travis testing
 if (isError) {
   process.exit(1);
 }

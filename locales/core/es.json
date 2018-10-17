@@ -1,5 +1,6 @@
 {
   "account": "Cuenta",
+  "addCard": "Agrega una tarjeta",
   "agreeToTermsLabel": "Estoy de acuerdo con los Términos y Condiciones",
   "album": "Álbum",
   "allTime": "De todos los tiempos",
@@ -7,6 +8,7 @@
   "artist": "Artista",
   "backToLogin": "Regresar a Iniciar Sesión",
   "basic": "Básico",
+  "billMonthly": "Factura mensual",
   "cancel": "Cancelar",
   "cancelMembership": "¿Estás seguro de que deseas cancelar tu membresía?",
   "cancelSubscriptionFirstAlert": "No se puede eliminar una cuenta con una suscripción activa.",
@@ -111,6 +113,7 @@
   "loginContinue": "Ingresa para continuar",
   "loginNotification": "Hola {{name}}, bienvenido",
   "mixAll": "Mezclar todos",
+  "month": "mes",
   "new": "Nuevo",
   "newUser": "¿Nuevo usuario?",
   "noType": {
@@ -151,11 +154,13 @@
   "restoreDefault": "Restaurar configuración predeterminada",
   "rising": "Prometedor",
   "save": "Guardar",
+  "saveAmount": "Ahorra '{{amount}}'",
   "saveTunes": "¡Guarda algunas melodías!",
   "saved": "Guardado",
   "search": "Buscar",
   "searchCheckout": "<0>Busca</0> nuevas canciones o mira una emisora de <2>Radio</2>",
   "selectColor": "Selecciona el color",
+  "selectPlan": "Selecciona un plan",
   "shuffle": "Reproducir aleatoriamente",
   "signOut": "Cerrar Sesión",
   "signUp": "Regístrate",
@@ -192,10 +197,13 @@
   "updatePassword": "Actualizar contraseña",
   "upgrade": "Obtener Pro",
   "upgradeFor": "¡Hazte <1>Pro</1> por $3/mes y mantén Headset con vida!. Disfrutarás de características premium y una sensación cálida.",
+  "upgradeNow": "Actualiza ahora",
+  "usdCaption": "Todos los precios están en USD",
   "validate": "Validar",
   "wantMoreSkips": "¿Quieres más saltos?",
   "watchOnYouTube": "Ver en YouTube",
   "welcomeNotification": "¡Hola {{name}}! ¡Bienvenido a Headset!",
   "whatToListen": "¿No sabes qué escuchar?",
-  "wrapper": "Envoltura"
+  "wrapper": "Envoltura",
+  "year": "año"
 }

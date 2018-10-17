@@ -1,5 +1,6 @@
 {
   "account": "Account",
+  "addCard": "Add a card",
   "agreeToTermsLabel": "I Agree to the Terms of Service",
   "album": "Album",
   "allTime": "All Time",
@@ -7,6 +8,7 @@
   "artist": "Artist",
   "backToLogin": "Back to login",
   "basic": "Basic",
+  "billMonthly": "Billed monthly",
   "cancel": "Cancel",
   "cancelMembership": "are you sure you want to cancel your membership?",
   "cancelSubscriptionFirstAlert": "Cannot delete an account with an active subscription.",
@@ -111,6 +113,7 @@
   "loginContinue": "Log in to continue",
   "loginNotification": "Hi {{name}}, welcome back",
   "mixAll": "Mix All",
+  "month": "month",
   "new": "New",
   "newUser": "New user?",
   "noType": {
@@ -151,11 +154,13 @@
   "restoreDefault": "Restore Default",
   "rising": "Rising",
   "save": "SAVE",
+  "saveAmount": "Save '{{amount}}'",
   "saveTunes": "Save some tunes!",
   "saved": "SAVED",
   "search": "Search",
   "searchCheckout": "<0>Search</0> for new songs or check out a <2>Radio</2> station",
   "selectColor": "Select color scheme",
+  "selectPlan": "Select a plan",
   "shuffle": "Shuffle",
   "signOut": "Sign Out",
   "signUp": "Sign Up",
@@ -192,10 +197,13 @@
   "updatePassword": "Update Password",
   "upgrade": "Upgrade",
   "upgradeFor": "Upgrade to <1>Pro</1> for $1.99/month and keep Headset alive! You will enjoy premium features and a warm fuzzy feeling!",
+  "upgradeNow": "Upgrade Now",
+  "usdCaption": "All prices are in USD",
   "validate": "Validate",
   "wantMoreSkips": "Want more skips?",
   "watchOnYouTube": "Watch on YouTube",
   "welcomeNotification": "Hello {{name}}! Welcome to Headset!",
   "whatToListen": "Don't know what to listen to?",
-  "wrapper": "wrapper"
+  "wrapper": "wrapper",
+  "year": "year"
 }

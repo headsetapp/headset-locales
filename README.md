@@ -27,7 +27,7 @@ We use a two-letter code to represent the locale, following [ISO
 If you want to add a locale specific to a country, as in US English (en-US) or Mexican Spanish (es-MX), use the two-letter language code follow by a hyphen, follow by the country's two-letter code capitalized.
 The two-letter country code follows [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) rules.
 
-1. Run `LOCALE=sa node bin/newLocale.js`.
+1. Run `LOCALE=sa node bin/addMissingKeys.js`.
    All required files will be created under `locales/core` and `locales/wrapper`, with all keys filled with a "\_\_NOT_TRANSLATED\_\_" value.
    Notice the `LOCALE` variable which contains the locale code.
    This can contain multiple locales separated by a space, i.e. `LOCALE="sa es-MX"`
@@ -40,4 +40,4 @@ The two-letter country code follows [ISO 3166-1 alpha-2](https://en.wikipedia.or
 This is relatively straightforward, if you find an error or a better translation for a key, feel free to submit a PR.
 
 If you're adding terms that didn't have a translation previously, follow the exact same procedure as for __Creating a new language__, specifying the locale you want to work on.
-The `newLocale.js` script will check if the locale files exist and if so, just add the missing translations.
+The `addMissingKeys.js` script will check if the locale files exist and if so, just add the missing translations.

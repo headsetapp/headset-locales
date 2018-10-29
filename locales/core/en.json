@@ -1,5 +1,6 @@
 {
   "account": "Account",
+  "addCard": "Add a card",
   "agreeToTermsLabel": "I Agree to the Terms of Service",
   "album": "Album",
   "allTime": "All Time",
@@ -7,6 +8,7 @@
   "artist": "Artist",
   "backToLogin": "Back to login",
   "basic": "Basic",
+  "billMonthly": "Billed monthly",
   "cancel": "Cancel",
   "cancelMembership": "are you sure you want to cancel your membership?",
   "cancelSubscriptionFirstAlert": "Cannot delete an account with an active subscription.",
@@ -21,6 +23,7 @@
     "created": "Collection '{{name}}' Created",
     "delete": "This will delete the collection. Are you sure you want to do that?",
     "dot": "Collections...",
+    "my": "My Collections",
     "no": "No Collections",
     "rename": "Rename Collection",
     "sureDelete": "Are you sure you want to remove this from your collections?"
@@ -69,9 +72,7 @@
   "export": "Export",
   "exportExplain": "Download all you data, in raw format",
   "favorite": "Favorite",
-  "follow": "Follow",
   "followInstructions": "We just sent you an email. Follow the instructions in the email to continue.",
-  "following": "Following",
   "forgotPassword": "Forgot Password?",
   "gdprConsent": {
     "p1": "We use cookies to securely identify your account and keep you signed in.",
@@ -105,21 +106,18 @@
   "live": "Live",
   "loadMore": "Load more",
   "loading": "Loading",
-  "loadingDotDotDot": "Loading...",
   "logIn": "Log In",
   "loggingOut": "Logging you out.. one moment",
   "loginContinue": "Log in to continue",
   "loginNotification": "Hi {{name}}, welcome back",
   "mixAll": "Mix All",
+  "month": "month",
   "new": "New",
   "newUser": "New user?",
   "noType": {
-    "channels": "No saved Channels, yet.",
-    "collections": "No collections, yet.",
     "explainChannels": "A channel on YouTube is the home page for an account. You can follow as many as you want. Look for the <1>Channel</1> tag in the search results!",
     "explainCollections": "Collections are user created playlists that are populated by individual tracks. Build a collection of your favorites, so they’re always close at hand",
-    "explainPlaylists": "A Playlist is a group of videos on users' YouTube channels, listed in a particular way so you can quickly find content that interests you. Look for the <1>Playlist</1> tag in the search results!",
-    "playlists": "No saved playlists, yet."
+    "explainPlaylists": "A Playlist is a group of videos on users' YouTube channels, listed in a particular way so you can quickly find content that interests you. Look for the <1>Playlist</1> tag in the search results!"
   },
   "notification": {
     "description": "Show alert when new song is playing",
@@ -154,16 +152,17 @@
   "restoreDefault": "Restore Default",
   "rising": "Rising",
   "save": "SAVE",
+  "saveAmount": "Save '{{amount}}'",
   "saveTunes": "Save some tunes!",
   "saved": "SAVED",
   "search": "Search",
   "searchCheckout": "<0>Search</0> for new songs or check out a <2>Radio</2> station",
   "selectColor": "Select color scheme",
+  "selectPlan": "Select a plan",
   "shuffle": "Shuffle",
   "signOut": "Sign Out",
   "signUp": "Sign Up",
   "signUpNow": "Sign-up Now",
-  "startTrial": "Start your 30 days trial",
   "station": {
     "cannotLoad": "Can't load {{stationKey}}",
     "random": "Pick a random station",
@@ -196,10 +195,13 @@
   "updatePassword": "Update Password",
   "upgrade": "Upgrade",
   "upgradeFor": "Upgrade to <1>Pro</1> for $1.99/month and keep Headset alive! You will enjoy premium features and a warm fuzzy feeling!",
+  "upgradeNow": "Upgrade Now",
+  "usdCaption": "All prices are in USD",
   "validate": "Validate",
   "wantMoreSkips": "Want more skips?",
   "watchOnYouTube": "Watch on YouTube",
   "welcomeNotification": "Hello {{name}}! Welcome to Headset!",
   "whatToListen": "Don't know what to listen to?",
-  "wrapper": "wrapper"
+  "wrapper": "wrapper",
+  "year": "year"
 }

@@ -6,6 +6,12 @@ const path = require('path');
 const wrapperPath = path.join(__dirname, '../locales', 'wrapper');
 const corePath = path.join(__dirname, '../locales', 'core');
 
+// Assigns the not-translated string
+function notTranslated(key, value) {
+  if (typeof value === 'object') return value;
+  return '__NOT_TRANSLATED__';
+}
+
 // Get the list of locales from user
 let locales;
 if (process.env.LOCALE) {
@@ -13,12 +19,6 @@ if (process.env.LOCALE) {
 } else {
   console.error('No locales found. Add one by passing the variable LOCALE');
   process.exit(1);
-}
-
-// Assigns the not-translated string
-function notTranslated(key, value) {
-  if (typeof value === 'object') return value;
-  return '__NOT_TRANSLATED__';
 }
 
 // Retrieves the English core and wrapper locales with '__NOT_TRANSLATED__' values for all

@@ -17,7 +17,7 @@ The following is the status of the current locale files:
 | en | English | complete |
 | es | Spanish | complete |
 
-## Contributin
+## Contributing
 
 1. Fork the repo
 2. Run `npm run fix locale=sa`. (*1)

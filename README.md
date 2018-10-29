@@ -27,14 +27,16 @@ We use a two-letter code to represent the locale, following [ISO
 If you want to add a locale specific to a country, as in US English (en-US) or Mexican Spanish (es-MX), use the two-letter language code follow by a hyphen, follow by the country's two-letter code capitalized.
 The two-letter country code follows [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) rules.
 
-1. Run `LOCALE=sa node bin/addMissingKeys.js`.
+0. Fork the repo
+1. Run `npm run fix locale=sa`.
    All required files will be created under `locales/core` and `locales/wrapper`, with all keys filled with a "\_\_NOT_TRANSLATED\_\_" value.
    Notice the `LOCALE` variable which contains the locale code.
    This can contain multiple locales separated by a space, i.e. `LOCALE="sa es-MX"`
-2. Translate as many keys as possible. Don't worry if you can't do them all, the ones not translated will use the English as backup.
-3. Before submitting a PR, run: `npm run lint` and fix any errors.
-4. Last run: `node bin/removeNotTranslated.js` to remove all the "\_\_NOT_TRANSLATED\_\_" values that you couldn't do.
-5. Submit the PR!
+2. Translate as many keys as possible.*
+3. Run `npm run prepare`
+4. Submit a PR!
+
+* Don't worry if you can't do them all, the ones not translated will use the English as backup. The `prepare` script will remove all the "\_\_NOT_TRANSLATED\_\_" values that you couldn't do.
 
 ### Translating terms
 This is relatively straightforward, if you find an error or a better translation for a key, feel free to submit a PR.

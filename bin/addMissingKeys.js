@@ -40,6 +40,7 @@ locales.forEach((locale) => {
   // Get JSON objects
   let wrapperJSON;
   let coreJSON;
+
   try {
     wrapperJSON = JSON.parse(fs.readFileSync(wrapperLocalePath, 'utf8'));
     coreJSON = JSON.parse(fs.readFileSync(coreLocalePath, 'utf8'));
@@ -49,10 +50,11 @@ locales.forEach((locale) => {
       fs.writeFileSync(wrapperLocalePath, `${JSON.stringify(enWrapperJSON, null, 2)}\n`);
       fs.writeFileSync(coreLocalePath, `${JSON.stringify(enCoreJSON, null, 2)}\n`);
       console.log(`New locale ${locale} was created`);
+    } else {
+      // Any other error, exit
+      console.error(err);
+      process.exit(2);
     }
-    // Any other error, exit
-    console.error(err);
-    process.exit(2);
   }
 
   // Assign __NOT_TRANSLATED__ strings to missing keys

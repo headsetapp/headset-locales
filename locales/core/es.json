@@ -1,5 +1,6 @@
 {
   "account": "Cuenta",
+  "addCard": "Agrega una tarjeta",
   "agreeToTermsLabel": "Estoy de acuerdo con los Términos y Condiciones",
   "album": "Álbum",
   "allTime": "De todos los tiempos",
@@ -7,6 +8,7 @@
   "artist": "Artista",
   "backToLogin": "Regresar a Iniciar Sesión",
   "basic": "Básico",
+  "billMonthly": "Factura mensual",
   "cancel": "Cancelar",
   "cancelMembership": "¿Estás seguro de que deseas cancelar tu membresía?",
   "cancelSubscriptionFirstAlert": "No se puede eliminar una cuenta con una suscripción activa.",
@@ -21,6 +23,7 @@
     "created": "Colección '{{name}}' Creada",
     "delete": "Esto eliminará la colección. ¿Estás seguro de que quieres hacer eso?",
     "dot": "Colecciones...",
+    "my": "Mis Colecciones",
     "no": "Sin Colecciones",
     "rename": "Cambiar el nombre de la colección",
     "sureDelete": "¿Seguro que quieres eliminar esto de tus colecciones?"
@@ -69,9 +72,7 @@
   "export": "Exportar",
   "exportExplain": "Descarga todos tus datos, en formato JSON",
   "favorite": "Favorito",
-  "follow": "Guardar",
   "followInstructions": "Acabamos de enviarte un correo electrónico. Sigue las instrucciones en el correo electrónico para continuar.",
-  "following": "Guardado",
   "forgotPassword": "¿Se te olvidó tu contraseña?",
   "gdprConsent": {
     "p1": "Usamos cookies para identificar tu cuenta de forma segura y mantenerte conectado.",
@@ -105,21 +106,18 @@
   "live": "En Vivo",
   "loadMore": "Cargar Más",
   "loading": "Cargando",
-  "loadingDotDotDot": "Cargando...",
   "logIn": "Iniciar sesión",
   "loggingOut": "Desconectando ... un momento",
   "loginContinue": "Ingresa para continuar",
   "loginNotification": "Hola {{name}}, bienvenido",
   "mixAll": "Mezclar todos",
+  "month": "mes",
   "new": "Nuevo",
   "newUser": "¿Nuevo usuario?",
   "noType": {
-    "channels": "No hay canales, todavía.",
-    "collections": "No hay colecciones, todavía.",
     "explainChannels": "Un canal en YouTube es la página de inicio de una cuenta. Puedes seguir tantas como quieras. ¡Busca la etiqueta <span class=\"channel-tag\">Canal</span> en los resultados de búsqueda!",
     "explainCollections": "Las colecciones son listas de reproducción creadas por el usuario, compuestas de canciones individuales. Crea una colección de tus favoritos, para que estén siempre cerca",
-    "explainPlaylists": "Una lista de reproducción te permite agrupar videos de una manera particular para que tus fans puedan encontrar más contenido que les interesa. ¡Busque la etiqueta <span class=\"playlist-tag\">Lista de Reproducción</span> en los resultados de búsqueda!",
-    "playlists": "No hay listas de reproducción, todavía."
+    "explainPlaylists": "Una lista de reproducción te permite agrupar videos de una manera particular para que tus fans puedan encontrar más contenido que les interesa. ¡Busque la etiqueta <span class=\"playlist-tag\">Lista de Reproducción</span> en los resultados de búsqueda!"
   },
   "notification": {
     "description": "Despliega una alerta cuando se reproduce una nueva canción",
@@ -154,16 +152,17 @@
   "restoreDefault": "Restaurar configuración predeterminada",
   "rising": "Prometedor",
   "save": "Guardar",
+  "saveAmount": "Ahorra '{{amount}}'",
   "saveTunes": "¡Guarda algunas melodías!",
   "saved": "Guardado",
   "search": "Buscar",
   "searchCheckout": "<0>Busca</0> nuevas canciones o mira una emisora de <2>Radio</2>",
   "selectColor": "Selecciona el color",
+  "selectPlan": "Selecciona un plan",
   "shuffle": "Reproducir aleatoriamente",
   "signOut": "Cerrar Sesión",
   "signUp": "Regístrate",
   "signUpNow": "Regístrate Ahora",
-  "startTrial": "Comienza tu prueba de 30 días",
   "station": {
     "cannotLoad": "No se pudo cargar {{stationKey}}",
     "random": "Elige una estación aleatoria",
@@ -196,10 +195,13 @@
   "updatePassword": "Actualizar contraseña",
   "upgrade": "Obtener Pro",
   "upgradeFor": "¡Hazte <1>Pro</1> por $3/mes y mantén Headset con vida!. Disfrutarás de características premium y una sensación cálida.",
+  "upgradeNow": "Actualiza ahora",
+  "usdCaption": "Todos los precios están en USD",
   "validate": "Validar",
   "wantMoreSkips": "¿Quieres más saltos?",
   "watchOnYouTube": "Ver en YouTube",
   "welcomeNotification": "¡Hola {{name}}! ¡Bienvenido a Headset!",
   "whatToListen": "¿No sabes qué escuchar?",
-  "wrapper": "Envoltura"
+  "wrapper": "Envoltura",
+  "year": "año"
 }

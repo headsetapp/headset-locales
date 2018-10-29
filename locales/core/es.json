@@ -72,9 +72,7 @@
   "export": "Exportar",
   "exportExplain": "Descarga todos tus datos, en formato JSON",
   "favorite": "Favorito",
-  "follow": "Guardar",
   "followInstructions": "Acabamos de enviarte un correo electrónico. Sigue las instrucciones en el correo electrónico para continuar.",
-  "following": "Guardado",
   "forgotPassword": "¿Se te olvidó tu contraseña?",
   "gdprConsent": {
     "p1": "Usamos cookies para identificar tu cuenta de forma segura y mantenerte conectado.",

@@ -72,9 +72,7 @@
   "export": "Export",
   "exportExplain": "Download all you data, in raw format",
   "favorite": "Favorite",
-  "follow": "Follow",
   "followInstructions": "We just sent you an email. Follow the instructions in the email to continue.",
-  "following": "Following",
   "forgotPassword": "Forgot Password?",
   "gdprConsent": {
     "p1": "We use cookies to securely identify your account and keep you signed in.",

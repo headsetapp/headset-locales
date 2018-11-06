@@ -21,14 +21,15 @@ function removeKeys(filesPath) {
   files.forEach((file) => {
     // Don't change the English translation.
     // This should be left so errors can happen on Travis and core-deploy script
-    if (file === 'en.json' || file === 'es.json') return;
+    if (file === 'en.json') return;
 
     const filePath = path.join(filesPath, file);
     const json = JSON.parse(fs.readFileSync(filePath, 'utf8'), notTranslated);
     if (typeof json !== 'undefined') {
       fs.writeFileSync(filePath, `${JSON.stringify(json, null, 2)}\n`);
+    } else {
+      fs.unlinkSync(filePath);
     }
-    fs.unlinkSync(filePath);
   });
 }
 

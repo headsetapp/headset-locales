@@ -6,35 +6,31 @@ const path = require('path');
 const wrapperPath = path.join(__dirname, '../locales', 'wrapper');
 const corePath = path.join(__dirname, '../locales', 'core');
 
-const wrapperFilenames = fs.readdirSync(wrapperPath);
-const coreFilenames = fs.readdirSync(corePath);
-
-// Removes all keys that have NOT_TRANSLATED values
+// Removes all keys that have NOT_TRANSLATED values using JSON.stringify
 function notTranslated(key, value) {
-  if (value === '__NOT_TRANSLATED__') {
+  if (value === '__NOT_TRANSLATED__' || Object.keys(value).length === 0) {
     return undefined;
   }
   return value;
 }
 
-// Rewrites JSON language files for wrapper
-wrapperFilenames.forEach((file) => {
-  // Don't change the English translation.
-  // This should be left so errors can happen on Travis and core-deploy script
-  if (file === 'en.json') { return; }
+// Rewrites all JSON language files under the given path directory
+function removeKeys(filesPath) {
+  const files = fs.readdirSync(filesPath);
 
-  const filePath = path.join(wrapperPath, file);
-  const json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-  fs.writeFileSync(filePath, `${JSON.stringify(json, notTranslated, 2)}\n`);
-});
+  files.forEach((file) => {
+    // Don't change the English translation.
+    // This should be left so errors can happen on Travis and core-deploy script
+    if (file === 'en.json' || file === 'es.json') return;
 
-// Rewrites JSON language files for core
-coreFilenames.forEach((file) => {
-  // Don't change the English translation.
-  // This should be left so errors can happen on Travis and core-deploy script
-  if (file === 'en.json') { return; }
+    const filePath = path.join(filesPath, file);
+    const json = JSON.parse(fs.readFileSync(filePath, 'utf8'), notTranslated);
+    if (typeof json !== 'undefined') {
+      fs.writeFileSync(filePath, `${JSON.stringify(json, null, 2)}\n`);
+    }
+    fs.unlinkSync(filePath);
+  });
+}
 
-  const filePath = path.join(corePath, file);
-  const json = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-  fs.writeFileSync(filePath, `${JSON.stringify(json, notTranslated, 2)}\n`);
-});
+removeKeys(wrapperPath);
+removeKeys(corePath);

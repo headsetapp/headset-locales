@@ -10,7 +10,7 @@ install:
 
 script:
 - npm run lint
-- if [[ "$TRAVIS_BRANCH" == "master" ]]; then node bin/testLocales.js; fi
+- if [[ "$TRAVIS_BRANCH" == "master" || "$TRAVIS_PULL_REQUEST" != "false" ]]; then node bin/testLocales.js; fi
 
 cache:
   directories:

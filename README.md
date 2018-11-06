@@ -16,7 +16,7 @@ The following is the status of the current locale files:
 |-------------|--------|----------|
 | en | English | complete |
 | es | Spanish | complete |
-| de | German  | not complete |
+| de | German  | complete |
 
 ## Contributing
 

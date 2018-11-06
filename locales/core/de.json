@@ -36,7 +36,7 @@
     "lastFm": "Verbinde zu last.fm"
   },
   "continue": "Fortfahren",
-  "controversial": "__NOT_TRANSLATED__",
+  "controversial": "Kontrovers",
   "copyClipboard": "In die Zwischenablage kopiert",
   "copyYouTube": "YouTube-Link kopieren",
   "core": "Core",
@@ -95,7 +95,7 @@
     "radio": "Suche auf reddit.com",
     "search": "Suche nach Titel / Album / Playlist / Kanal"
   },
-  "hot": "Hot",
+  "hot": "Beliebt",
   "lastFm": {
     "remember": "Für die aktuelle Warteschleife merken",
     "scrobble": "Scrobble zu last.fm"
@@ -168,8 +168,8 @@
     "random": "Zufällige Station wählen",
     "station_plural": "Stationen"
   },
-  "stepWithCount": "__NOT_TRANSLATED__",
-  "stepWithCount_plural": "__NOT_TRANSLATED__",
+  "stepWithCount": "Schritt {{count}}",
+  "stepWithCount_plural": "Schritt {{count}}",
   "stickBasics": "Nein, danke, ich bleibe beim Basic-Plan.",
   "theme": "Theme",
   "thisMonth": "Dieser Monat",

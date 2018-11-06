@@ -27,9 +27,11 @@ function readWriteLocale(localePath, jsonTemplate) {
     const json = JSON.parse(fs.readFileSync(localePath, 'utf8'));
     const wrapperOut = Object.assign({}, jsonTemplate, json);
 
-    // Writes json file to disk which includes missing keys
-    fs.writeFileSync(localePath, `${JSON.stringify(wrapperOut, null, 2)}\n`);
-    console.log(`Added missing translations to ${path.relative('./', localePath)}`);
+    if (JSON.stringify(wrapperOut) !== JSON.stringify(json)) {
+      // Writes json file to disk which includes missing keys
+      fs.writeFileSync(localePath, `${JSON.stringify(wrapperOut, null, 2)}\n`);
+      console.log(`Added missing translations to ${path.relative('./', localePath)}`);
+    }
   } catch (err) {
     // Exists on any error beside "File doesn't exist"
     if (err.code !== 'ENOENT') {

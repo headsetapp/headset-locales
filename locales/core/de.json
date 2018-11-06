@@ -48,14 +48,14 @@
   "dontClose": "Schließe diesen Dialog nicht, andernfalls musst du wieder von vorne anfangen.",
   "email": {
     "code": "Gib bitte den 6-stelligen Code unten ein:",
-    "confirm": "Hey! Bitte bestätige deine E-Mail Addresse",
-    "confirmFirst": "Du musst erst deine E-Mail Addresse bestätigen",
+    "confirm": "Hey! Bitte bestätige deine E-Mail Adresse",
+    "confirmFirst": "Du musst erst deine E-Mail Adresse bestätigen",
     "confirmation": "E-Mail Bestätigung",
     "confirmed": "E-Mail bestätigt",
     "resend": "Den Code nochmal senden",
     "sent": "Eine E-Email wurde gesendet an"
   },
-  "enterEmail": "Gib deine E-Mail Addresse ein",
+  "enterEmail": "Gib deine E-Mail Adresse ein",
   "enterEsc": "Drücke \"Enter\" zum Speichern, \"Esc\" zum Abbrechen",
   "error": {
     "firstName": "Gib bitte deinen Vornamen ein",
@@ -64,9 +64,9 @@
     "passwordEnter": "Gib bitte ein Passwort ein",
     "passwordMatch": "Passwörter stimmen nicht überein",
     "passwordReset": "Wenn du jetzt abbrichst, musst du von vorne anfangen. Bist du dir sicher?",
-    "terms": "Bitte lies die Nutzungsbedingungen und stimme ihnen zu",
+    "terms": "Bitte ließ die Nutzungsbedingungen und stimme ihnen zu",
     "termsConditions": "Bitte stimme den Nutzungsbedingungen zu",
-    "validEmail": "Bitte gib eine gültige E-Mail Addresse ein"
+    "validEmail": "Bitte gib eine gültige E-Mail Adresse ein"
   },
   "expirationDate": "Ablaufdatum",
   "export": "Exportieren",
@@ -76,13 +76,13 @@
   "forgotPassword": "Passwort vergessen?",
   "gdprConsent": {
     "p1": "Wir verwenden Cookies, um Ihr Konto sicher zu identifizieren und um dafür zu sorgen, dass Sie angemeldet bleiben.",
-    "p2": "Wir nutzen Google Analytics um unser Produkt zu verbessern und um Bugs zu beheben.",
+    "p2": "Wir nutzen Google Analytics, um unser Produkt zu verbessern und um Bugs zu beheben.",
     "p3": "Ein Kunde kann seine Einwilligung jederzeit widerrufen und seine Daten löschen, indem er sein Konto in den Einstellungen löscht."
   },
   "getProAccess": "Upgrade jetzt, um dieses Feature nutzen zu können.",
   "getUnlimitedSkips": "Überspringe Songs unlimitiert oft mit <1>Pro</1>!",
   "gotIt": "Alles klar",
-  "helpLights": "Hilf uns, die Lichter an zu behalten",
+  "helpLights": "Hilf uns, die Lichter anzubehalten",
   "holder": {
     "confirmPassword": "Bestätige dein neues Passwort",
     "email": "E-Mail",
@@ -109,7 +109,7 @@
   "logIn": "Einloggen",
   "loggingOut": "Du wirst ausgeloggt... Einen Moment",
   "loginContinue": "Einloggen, um fortzufahren",
-  "loginNotification": "Hey {{name}}, Willkommen zurück!",
+  "loginNotification": "Hey {{name}}! Willkommen zurück!",
   "mixAll": "Alle Mixen",
   "month": "Monat",
   "new": "Neu",
@@ -130,7 +130,7 @@
   "partyShuffle": "Party Shuffle",
   "partyShuffleTooltip": "Spiele einen Mix aus all deinen Favoriten in einer übersichtlichen Playlist ab",
   "passwordReset": "Passwort zurücksetzen",
-  "passwordResetSuccess": "Erfolgreich! Ändere jetzt dein Passwort, und du bist fertig.",
+  "passwordResetSuccess": "Erfolgreich! Ändere jetzt dein Passwort und du bist fertig!",
   "pastHour": "Letzte Stunde",
   "pinned": "Angepinnt",
   "plan": "Plan",
@@ -201,7 +201,7 @@
   "wantMoreSkips": "Willst du öfters überspringen?",
   "watchOnYouTube": "Auf YouTube ansehen",
   "welcomeNotification": "Hey {{name}}! Willkommen bei Headset!",
-  "whatToListen": "Weißt du nicht was du anhören sollst?",
+  "whatToListen": "Weißt du nicht, was du anhören sollst?",
   "wrapper": "Wrapper",
   "year": "Jahr"
 }

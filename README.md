@@ -28,10 +28,10 @@ The following is the status of the current locale files:
     All required files will be created under `locales/core` and `locales/wrapper`, with all keys filled with a `__NOT_TRANSLATED__` default value.
 
 3. Translate as many keys as possible. <sup>2</sup>
-4. Run `npm run prepare`
+4. Run `npm run ready`
 5. Submit a PR!
 
 [1]: We use a two-letter code to represent the locale, following [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) rules. If you want to add a locale specific to a country, as in US English (en-US) or Mexican Spanish (es-MX), use the two-letter language code follow by a hyphen, follow by the country's two-letter code capitalized.
 The two-letter country code follows [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) rules.
 
-[2] Don't worry if you can't do them all, the ones not translated will use English as backup. The `prepare` script will remove all the `__NOT_TRANSLATED__` values that you couldn't do.
+[2] Don't worry if you can't do them all, the ones not translated will use English as backup. The `ready` script will remove all the `__NOT_TRANSLATED__` values that you couldn't do.

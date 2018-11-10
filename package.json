@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "eslint --ext .js,.json .",
     "i18n-scan": "i18next-scanner '../headset-electron/windows/lib/headsetTray.js' '../headset/src/**/*.{js,jsx}'",
-    "prepare": "npm run lint && node bin/removeNotTranslated.js",
+    "ready": "npm run lint && node bin/removeNotTranslated.js",
     "fix": "node bin/addMissingKeys.js"
   },
   "devDependencies": {

@@ -82,7 +82,6 @@
   "getProAccess": "Actualiza ahora para acceder a esta función.",
   "getUnlimitedSkips": "¡Obtén saltos ilimitados con <span class=\"pro-badge\">Pro</span>!",
   "gotIt": "De acuerdo",
-  "helpLights": "Ayúdanos a mantener las luces encendidas",
   "holder": {
     "confirmPassword": "Confirmar la nueva contraseña",
     "email": "Correo electrónico",
@@ -170,7 +169,6 @@
   },
   "stepWithCount": "Paso {{count}}",
   "stepWithCount_plural": "Paso {{count}}",
-  "stickBasics": "No, gracias, me limitaré a lo básico.",
   "theme": "Tema",
   "thisMonth": "Este Mes",
   "thisWeek": "Esta Semana",
@@ -190,11 +188,9 @@
     "withCount_plural": "{{count}} canciones"
   },
   "tryFilter": "¿Tal vez intenta con un filtro diferente?",
-  "tryPro": "prueba <span class=\"pro-badge\">Pro</span> gratis por 30 días",
   "unlike": "No me gusta",
   "updatePassword": "Actualizar contraseña",
   "upgrade": "Obtener Pro",
-  "upgradeFor": "¡Hazte <1>Pro</1> por $3/mes y mantén Headset con vida!. Disfrutarás de características premium y una sensación cálida.",
   "upgradeNow": "Actualiza ahora",
   "upgradePro": "Hazte Pro",
   "usdCaption": "Todos los precios están en USD",

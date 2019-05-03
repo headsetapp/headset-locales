@@ -82,7 +82,6 @@
   "getProAccess": "Upgrade now to access this feature.",
   "getUnlimitedSkips": "Get unlimited skips with <1>Pro</1>!",
   "gotIt": "Got it",
-  "helpLights": "Help us keep the lights on",
   "holder": {
     "confirmPassword": "Confirm the new password",
     "email": "Email",
@@ -170,7 +169,6 @@
   },
   "stepWithCount": "Step {{count}}",
   "stepWithCount_plural": "Step {{count}}",
-  "stickBasics": "No thanks, I will stick to basics.",
   "theme": "Theme",
   "thisMonth": "This month",
   "thisWeek": "This week",
@@ -190,11 +188,9 @@
     "withCount_plural": "{{count}} Tracks"
   },
   "tryFilter": "Maybe try a different filter?",
-  "tryPro": "try <1>Pro</1> free for 30 days",
   "unlike": "Unlike",
   "updatePassword": "Update Password",
   "upgrade": "Upgrade",
-  "upgradeFor": "Upgrade to <1>Pro</1> for $1.99/month and keep Headset alive! You will enjoy premium features and a warm fuzzy feeling!",
   "upgradeNow": "Upgrade Now",
   "upgradePro": "Upgrade to Pro",
   "usdCaption": "All prices are in USD",

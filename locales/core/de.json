@@ -82,7 +82,6 @@
   "getProAccess": "Upgrade jetzt, um dieses Feature nutzen zu können.",
   "getUnlimitedSkips": "Überspringe Songs unlimitiert oft mit <1>Pro</1>!",
   "gotIt": "Alles klar",
-  "helpLights": "Hilf uns, die Lichter anzubehalten",
   "holder": {
     "confirmPassword": "Bestätige dein neues Passwort",
     "email": "E-Mail",
@@ -170,7 +169,6 @@
   },
   "stepWithCount": "Schritt {{count}}",
   "stepWithCount_plural": "Schritt {{count}}",
-  "stickBasics": "Nein, danke, ich bleibe beim Basic-Plan.",
   "theme": "Theme",
   "thisMonth": "Dieser Monat",
   "thisWeek": "Diese Woche",
@@ -190,11 +188,9 @@
     "withCount_plural": "{{count}} Titel"
   },
   "tryFilter": "Vielleicht einen anderen Filter ausprobieren?",
-  "tryPro": "Probiere <1>Pro</1> 30 Tage gratis!",
   "unlike": "Like entfernen",
   "updatePassword": "Passwort ändern",
   "upgrade": "Upgraden",
-  "upgradeFor": "Upgrade zu <1>Pro</1> für $1.99/Monat und halte Headset am Leben! Genieße alle Premium-Features und habe ein gutes Gefühl dabei, jemanden zu helfen!",
   "upgradeNow": "Jetzt upgraden",
   "upgradePro": "Upgrade zu Pro",
   "usdCaption": "Alle Preise sind in USD",

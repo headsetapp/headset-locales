@@ -1,7 +1,12 @@
-# Headset Locales
+# DEPRECATED: This repo is no longer maintained
 
-[![Build
-Status](https://travis-ci.org/headsetapp/headset-locales.svg?branch=master)](https://travis-ci.org/headsetapp/headset-locales)
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+This project is no longer maintained, pull requests are no longer being reviewed or merged, and issues are no longer being responded to.
+
+---
+
+# Headset Locales
 
 Headset-locales is the official repository for [Headset](http://headsetapp.co) locale files. These files are used to
 localize the `core` and `wrapper` parts of Headset.
